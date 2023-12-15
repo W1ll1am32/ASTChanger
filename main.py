@@ -63,12 +63,16 @@ class ASTChanger(ast.NodeTransformer):
 if __name__ == '__main__':
     i = open('input.txt', 'r')
     o = open('output.txt', 'w')
+    
     tree = ast.parse(i.read())
     #print(astunparse.dump(tree))
+    
     changer = ASTChanger()
     trans_tree = changer.visit(tree)
     changer.fix_imports(trans_tree)
+    
     res = ast.unparse(trans_tree)
+    
     o.write(res)
     i.close()
     o.close()
