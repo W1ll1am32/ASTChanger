@@ -1,0 +1,15 @@
+import ast, copy, runpy
+z = 5
+k = 10
+
+def func1():
+    print('f')
+    x = 4
+    return x
+print('Hi')
+y1 = 10
+y2 = 4
+y3 = 21
+y4 = 2.3333333333333335
+y = 1
+s = 8 + y

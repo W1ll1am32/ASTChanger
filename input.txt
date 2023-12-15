@@ -1,0 +1,23 @@
+import copy, runpy
+import ast
+
+z: int = 5
+k = 10
+
+
+def abracadabra():
+    print('f')
+    x = 4
+    return x
+
+
+# Use a breakpoint in the code line below to debug your script.
+print('Hi')  # Press Ctrl+F8 to toggle the breakpoint.
+
+''' Whats up? '''
+y1 = 7 + 3
+y2 = 7 - 3
+y3 = 7 * 3
+y4 = 7 / 3
+y = 1
+s = 8 + y

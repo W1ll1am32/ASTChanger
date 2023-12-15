@@ -1,0 +1,30 @@
+AnnAssign(
+      target=Name(
+        id='z',
+        ctx=Store()),
+      annotation=Name(
+        id='int',
+        ctx=Load()),
+      value=Constant(
+        value=5,
+        kind=None),
+      simple=1),
+
+Assign(
+      targets=[Name(
+        id='k',
+        ctx=Store())],
+      value=Constant(
+        value=10,
+        kind=None),
+      type_comment=None),
+
+AnnAssign(
+      target=Name(
+        id='b',
+        ctx=Store()),
+      annotation=Name(
+        id='int',
+        ctx=Load()),
+      value=None,
+      simple=1),
