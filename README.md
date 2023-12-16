@@ -13,3 +13,9 @@
 ### Выходное дерево
 
 ![output_ast.png](ASTs%2Foutput_ast.png)
+
+## Запуск
+```
+python3 main.py
+```
+Код для обработки записать в файл input.txt, вывод будет в файле output.txt
